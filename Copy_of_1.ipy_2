@@ -1,0 +1,74 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Copy of Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyO0kkLp3qXM+6J0vXiVdup9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/akirabira/Assignments/blob/main/Copy_of_1.ipy_2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "score = 70\n",
+        "\n",
+        "if score >= 80:\n",
+        "  compliment = \"execellent\"\n",
+        "  print(compliment)\n",
+        "\n",
+        "elif score >= 70 and score < 80:\n",
+        "  compliment = \"very good\"\n",
+        "  print(compliment)\n",
+        "\n",
+        "elif score >=60 and score < 70:\n",
+        "  compliment = \"good\"\n",
+        "  print(compliment)\n",
+        "\n",
+        "elif score >= 50 and score < 60:\n",
+        "  compliment = \"fair\"\n",
+        "  print(compliment)\n",
+        "\n",
+        "elif score < 50:\n",
+        "  compliment = \"fail\"\n",
+        "  print(compliment)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MCjrgRMZlUdb",
+        "outputId": "b35a71eb-36b7-47e4-ae1f-8a529666feb7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "very good\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
